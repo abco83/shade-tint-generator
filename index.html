@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="top">
+    <h1 class="header">Shades and tintes but also the brighter ones</h1>
+
+  </header>
+  <div class=top>
+    <ul class="color-buttons">
+      <li class="pecentages">
+        0%
+      </li>
+      <li class="pecentages">
+        10%
+      </li>
+      <li class="pecentages">
+        20%
+      </li>
+      <li class="pecentages">
+        30%
+      </li>
+      <li class="pecentages">
+        40%
+      </li>
+      <li class="pecentages">
+        50%
+      </li>
+      <li class="pecentages">
+        60%
+      </li>
+      <li class="pecentages">
+        70%
+      </li>
+      <li class="pecentages">
+        80%
+      </li>
+      <li class="pecentages">
+        90%
+      </li>
+      <li class="pecentages">
+        100%
+      </li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+      <li><button class="sample"></button></li>
+    </ul>
+  </div>
+  <div class="grid-col2">
+    <div class="form form-input">
+      <form class="form-hex" action="" method="get">
+        <label for="hex"></label>
+        <input id="hex" type="text" name="" id="" placeholder="#b8efed">
+        <input class="input-box" type="submit" name="" id="hexsubmit" value="Get HEX">
+      </form>
+
+      <form class='form form-rgb' action="" method="get">
+        <div class="boxes">
+          <label for="red">Red</label>
+          <input class="rgb-input" placeholder="184" id="red" type="number" min="0" max="255">
+          <label for="green">green</label>
+          <input class="rgb-input" placeholder="239" id="green" type="number" min="0" max="255">
+          <label for="blue">blue</label>
+          <input class="rgb-input" placeholder="237" id="blue" type="number" min="0" max="255">
+        </div>
+        <input class="input-box" type="submit" name="" id="rgbsubmit" value="Get RGB">
+      </form>
+
+      <form class="form form-colorpicker" action="" method="get">
+        <label for="color-picker-input"></label>
+        <input id="color-picker-input" type="color">
+        <input class="input-box" type="submit" name="" id="colorpicker" value="Get">
+        <div class=colorupdater>&nbsp;</div>
+      </form>
+    </div>
+  </div>
+
+  <div class="opties">
+    <form action="" name="radio" class="radio">
+      <label for="radio">text color:</label>
+      <input class="kleur-type" type="radio" name="kleur" id="black-white" value="optie1" checked="checked">
+      <label for="black-white">black/white</label>
+      <input class="kleur-type" type="radio" name="kleur" id="inherit" value="optie3">
+      <label for="inherit">background</label>
+      <input class="kleur-type" type="radio" name="kleur" id="negative" value="optie2">
+      <label for="negative">negative</label>
+      <input class="click-trough" type="checkbox">
+      <label for="allcliks">click&uarr;refresh</label>
+
+
+      <input class="show-boxes" type="checkbox">
+      <label for="show-boxes">negative hex</label>
+    </form>
+    <div class="opties opties--2">
+      <form action="" name="radio-border" class="radio">
+        <label for="radio-border">X - border:</label>
+        <input class="kleur-type-border" type="radio" name="kleur-border" id="black-white-border" value="optie1">
+        <label for="black-white-border">black/white</label>
+        <input class="kleur-type-border" type="radio" name="kleur-border" id="inherit-border" value="optie3">
+        <label for="inherit-border">background</label>
+        <input class="kleur-type-border" type="radio" name="kleur-border" id="negative-border" value="optie2"
+          checked="checked">
+        <label for="negative">negative</label>
+        <input class="voorbeelig" type="checkbox">
+        <label for="show-voorbeeden">exsamples</label>
+
+
+        <input class="toggle-text" type="checkbox">
+        <label for="toggle-text">Dutch &darr;</label>
+      </form>
+    </div>
+
+    <section class="explain">
+      <div>
+        <h2 class="about engels">About</h2>
+        <h2 class="about nederl">Over</h2>
+        <p class="engels">This “tool” calculates the shades and tints for any color, in addition it tries to make
+          brighter versions of the color as well.
+          When the calculated color is “corrected” e.g. the rgb value was set to max or min because it exceeded that
+          value, the box will have an ugly border.
+        </p>
+        <p class="nederl">Deze “tool” rekent de verschillende tinten voor elke kleur uit, behalve dat probeert het ook
+          een helderdere versie van de kleur te maken.
+          Als de uitgerekende kleur “gecorrigeerd” werd als in de waarde was boven of onder het maximum, heeft het vak
+          een de lelijke rand.
+        </p>
+        <h3 class="heading-3 engels">Functionality:</h3>
+        <h3 class="heading-3 nederl">Funties:</h3>
+        <ul class="about-list engels">
+          <li>Copy any Hex or rgb code into the box above "Get HEX".</li>
+          <li>Input van rgb numbers, color picker or type in hex.</li>
+          <li>Click on any colored button to copy it’s hex code to clipboard.</li>
+          <li>Click on “Get RGB” to copy the rgb code to clipboard.</li>
+          <li>Information about the meaning of colors. &darr;</li>
+          <li>Change the text or border color.</li>
+          <li>Enable/disable recalculating from clicks on shades and tints.</li>
+          <li>Saves the calculated decimals while clicking through.</li>
+          <li>Calculate the negative of the current color.</li>
+          <li>2 x 20 examples to click on.</li>
+          <li>Random color selector.</li>
+        </ul>
+        <ul class="about-list nederl">
+          <li>Kopieer een Hex of rgb code in het vak boven "Get HEX".</li>
+          <li>Invoer van rgb nummers, kleurkiezer of tik in een hex.</li>
+          <li>Klik op een kleur om de hex code op het klembord te plaatsen.</li>
+          <li>Klik op “Get RGB” om de rbg code op het klembord te plaatsen.</li>
+          <li>Informatie over de betekenis van kleuren. &darr;</li>
+          <li>Verander de kleur van de text of de rand.</li>
+          <li>Zet doorklikken van de shades en tints aan of uit.</li>
+          <li>Bewaard de uitgerekende decimalen bij het doorklikken.</li>
+          <li>Reken de negatieve versie van de kleuren uit.</li>
+          <li>2 x 20 voorbeelden om op te klikken.</li>
+          <li>Willekeurige kleur kiezer.</li>
+        </ul>
+        <div class="button-div">
+          <button class="got-it engels">Got it</button>
+          <button class="got-it nederl">Ik snap het</button>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="relative-to">
+      <div class=exsample-colors>
+        <div class="yup-a-other-flexbox">
+          <h2>Exsample colors</h2>
+          <form name="dropdown" class="dropdown" action="">
+            <!-- <label for="dropdown-colors">Kies: </label> -->
+            <select class="exzam" name="voorbeeldjes" id="beeld">
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
+            <button class="random">Random</button>
+          </form>
+        </div>
+
+        <ul class="voorbeeld">
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+          <li><button class="exsample"></button></li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div class="div-kleuren">
+        <h2 class="heading-2 eng">How colors make can make you feel</h2>
+        <h2 class="heading-2 nl">Het gevoel dat kleuren je geven</h2>
+        <div class="kleuren">
+          <table class="table nl">
+            <tr>
+              <td>Rood</td>
+              <td>Trekt veel aandacht, symboliseert kracht, passie, opwinding</td>
+            </tr>
+            <tr>
+              <td>Oranje</td>
+              <td>Minder aggresief, geluk, opgewektheid en creativiteit</td>
+            </tr>
+            <tr>
+              <td>Geel</td>
+              <td>Vreugde, herderheid, intelligentie</td>
+            </tr>
+            <tr>
+              <td>Groen</td>
+              <td>Harmonieus, natuur, groei en gezondheid</td>
+            </tr>
+            <tr>
+              <td>Blauw</td>
+              <td>Rust, betrouwbaarheid en professionaliteit</td>
+            </tr>
+            <tr>
+              <td>Paars</td>
+              <td>Rijkdom, weisheid en magie</td>
+            </tr>
+            <tr>
+              <td>Roze</td>
+              <td>Romantiek, geven om en affectie</td>
+            </tr>
+            <tr>
+              <td>Bruin</td>
+              <td>Natuur, duurzaamheid en comfort</td>
+            </tr>
+            <tr>
+              <td>Zwart</td>
+              <td>Kracht, elegantie en minimalisme, maar ook rouw en verdriet</td>
+            </tr>
+          </table>
+
+
+          <table class="table eng">
+            <tr>
+              <td>Red</td>
+              <td>Draws attention, and symbolizes Power, passion, and excitment</td>
+            </tr>
+            <tr>
+              <td>Orange</td>
+              <td>Less aggressive, happiness, cheerfullness, and creativity</td>
+            </tr>
+            <tr>
+              <td>Yellow</td>
+              <td>Joy, brightness, and intelligence</td>
+            </tr>
+            <tr>
+              <td>Green</td>
+              <td>Harmony, nature, growth, and health</td>
+            </tr>
+            <tr>
+              <td>Blue</td>
+              <td>Peace, trustworthiness and professionalism</td>
+            </tr>
+            <tr>
+              <td>Purple</td>
+              <td>Wealth, wisdom, and magic</td>
+            </tr>
+            <tr>
+              <td>Pink</td>
+              <td>Romance, care, and affection</td>
+            </tr>
+            <tr>
+              <td>Brown</td>
+              <td>Nature, durabiity and comfort</td>
+            </tr>
+            <tr>
+              <td>Black</td>
+              <td>Power, elegance and minimalism, but also grief and sorrow</td>
+            </tr>
+
+          </table>
+
+
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
